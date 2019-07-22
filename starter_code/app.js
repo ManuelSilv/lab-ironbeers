@@ -27,7 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //routing pages
 app.get('/', (req, res, next) => {
-  res.render('home');
+  res.render('index');
 });
 
 app.get ('/beers', (req, res) => {
@@ -44,8 +44,6 @@ app.get ('/beers', (req, res) => {
 app.get ('/randombeer', (req, res) => {
   res.render('randombeer');
 })
-
-
 
 app.listen(3000, () =>{
 console.log("It's 3000 bay!")

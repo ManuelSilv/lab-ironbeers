@@ -56,12 +56,38 @@ ul, li, a{
 }
 
 
-.beerimg{text-align: center;}
-
-.beerimg img {
-  height: 30%;
-  width: 30%;
+.beerPlaceholder{
+  border-style: black, 4px;
+  height: 300px;
+  width: 200px;
+  float: left;
+  margin: 2px;
 }
+
+.beer-img img {
+  height: 20%;
+  width: 20%;
+}
+
+.beer-name {
+  font-weight: bolder;
+}
+
+.beer-tagline {
+  color: rgba(128, 128, 128, 0.815);
+}
+
+.beer-discription {
+  font-weight: bold;
+}
+
+
+.beer-ingredient
+.beer-method
+.beer-tagline
+.beer-firstbrewed
+.beer-contributed
+.beer-tips
 
 .checkBeer{
   
